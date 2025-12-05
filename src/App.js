@@ -2,58 +2,58 @@ import "./App.css";
 
 const MyPage = () => {
   return (
-    <body className="jsl10n-visible">
+    <body>
       <div className="banner">
         <div className="header">
-          <div className="title">
-            <div className="title-image-wrapper">
-              {/* <img
-                  className="title-image"
-                  alt=""
-                  src="./Wikimedia_files/wikimedia_logo.png"
-                /> */}
-            </div>
-          </div>
+          <div className="title"></div>
         </div>
         <div className="welcome">
+          <img
+            className="welcome-image"
+            src="../assets/IMG-20241214-WA0014.jpg"
+          />
           <div className="welcome-message-wrapper">
-            <span
-              className="welcome-message jsl10n"
-              data-jsl10n="wikimedia-org-welcome"
-            >
-              Hello, there!
-            </span>
-            <span
-              className="welcome-message-subtext jsl10n"
-              data-jsl10n="wikimedia-org-welcome-subtitle"
-            >
+            <span className="welcome-message">Hello, there!</span>
+            <span className="welcome-message-subtext">
               Join us in making all knowledge available to everyone, everywhere.
             </span>
           </div>
-          {/* <img
-            className="welcome-image"
-            src="./Wikimedia_files/welcome-image.svg"
-          /> */}
         </div>
       </div>
       <div className="our-projects-wrapper">
         <div className="our-projects">
           <div className="our-projects-title-wrapper">
-            <span
-              className="our-projects-title jsl10n"
-              data-jsl10n="wikimedia-org-our-projects"
-            >
-              Our Projects
-            </span>
+            <span className="our-projects-title">About Me</span>
           </div>
           <div className="our-projects-desc-wrapper">
-            <span
-              className="our-projects-desc jsl10n"
-              data-jsl10n="wikimedia-org-our-projects-desc"
-            >
-              Our projects are the core of the , and the content is
-              collaboratively developed by over 260,000 users worldwide using
-              thefsfddsd.
+            <span className="our-projects-desc">
+              <p>
+                I am currently working at TechBlocks as a Frontend Web
+                Developer, with over 4 years of total work experience. I am
+                adept in web development with React JS, and currently upskilling
+                with Node JS, Express JS & Next JS. I am experienced in
+                converting high level UI wireframes & requirements to concrete
+                implementation by following design & coding patterns that are up
+                to the industry standard.
+              </p>
+              <p>
+                I have earned the Azure DevOps Engineer & AWS Developer
+                Associate certifications and I'm keen on gaining hands-on
+                experience with these cloud services, which would increase my
+                proficiency with these cloud platforms. I am also BigDev
+                certified, and have a good understanding of Stencil UI, Catalog
+                API and Widgets API.
+              </p>
+              <p>
+                I am passionate about Photography, and I have a Minor Degree in
+                Photography from Amity University Mumbai, where I also completed
+                my Bachelor's Degree in Computer Science and Engineering. I
+                believe that photography helps me develop my creativity,
+                attention to detail, and problem-solving skills, which are
+                essential for my career as a software developer. My goal is to
+                combine my technical and artistic talents to create innovative
+                and user-friendly solutions that make a positive impact.
+              </p>
             </span>
           </div>
         </div>
@@ -61,12 +61,7 @@ const MyPage = () => {
       <div className="project-list"></div>
       <div className="project-group">
         <div className="project-group-tagline-wrapper">
-          <span
-            className="project-group-tagline jsl10n"
-            data-jsl10n="wikimedia-org-projects-reference"
-          >
-            Reference
-          </span>
+          <span className="project-group-tagline">Reference</span>
         </div>
         <div className="project-row">
           <a href="https://www.wikipedia.org/" className="project-wrapper">
@@ -77,16 +72,9 @@ const MyPage = () => {
               /> */}
             <div className="project-block">
               <div className="project-name-wrapper">
-                <span className="project-name jsl10n" data-jsl10n="wiki.name">
-                  Wikipedia
-                </span>
+                <span className="project-name">Wikipedia</span>
               </div>
-              <span
-                className="project-tagline jsl10n"
-                data-jsl10n="wiki.slogan"
-              >
-                The Free Encyclopedia
-              </span>
+              <span className="project-tagline">The Free Encyclopedia</span>
             </div>
           </a>
           <a href="https://www.wiktionary.org/" className="project-wrapper">
@@ -97,19 +85,9 @@ const MyPage = () => {
               /> */}
             <div className="project-block">
               <div className="project-name-wrapper">
-                <span
-                  className="project-name jsl10n"
-                  data-jsl10n="wiktionary.name"
-                >
-                  Wiktionary
-                </span>
+                <span className="project-name">Wiktionary</span>
               </div>
-              <span
-                className="project-tagline jsl10n"
-                data-jsl10n="wiktionary.slogan"
-              >
-                Free dictionary
-              </span>
+              <span className="project-tagline">Free dictionary</span>
             </div>
           </a>
           <a href="https://www.wikiquote.org/" className="project-wrapper">
@@ -120,19 +98,9 @@ const MyPage = () => {
               /> */}
             <div className="project-block">
               <div className="project-name-wrapper">
-                <span
-                  className="project-name jsl10n"
-                  data-jsl10n="wikiquote.name"
-                >
-                  Wikiquote
-                </span>
+                <span className="project-name">Wikiquote</span>
               </div>
-              <span
-                className="project-tagline jsl10n"
-                data-jsl10n="wikiquote.slogan"
-              >
-                Free quote compendium
-              </span>
+              <span className="project-tagline">Free quote compendium</span>
             </div>
           </a>
           <a href="https://www.wikibooks.org/" className="project-wrapper">
@@ -143,19 +111,9 @@ const MyPage = () => {
               /> */}
             <div className="project-block">
               <div className="project-name-wrapper">
-                <span
-                  className="project-name jsl10n"
-                  data-jsl10n="wikibooks.name"
-                >
-                  Wikibooks
-                </span>
+                <span className="project-name">Wikibooks</span>
               </div>
-              <span
-                className="project-tagline jsl10n"
-                data-jsl10n="wikibooks.slogan"
-              >
-                Free textbooks
-              </span>
+              <span className="project-tagline">Free textbooks</span>
             </div>
           </a>
         </div>
@@ -164,7 +122,7 @@ const MyPage = () => {
         <div className="wmf">
           <div className="wmf-block">
             <div className="wmf-desc-wrapper">
-              <span className="wmf-desc jsl10n" data-jsl10n="wikimedia-org-wmf">
+              <span className="wmf-desc">
                 This is the non-profit organization that hosts all Wikimedia
                 projects and supports communities all over the world who create
                 and curate freely accessible content.
@@ -182,26 +140,9 @@ const MyPage = () => {
             /> */}
           <div className="donate-block-wrapper">
             <div className="donate-block">
-              <div
-                className="donate-title jsl10n"
-                data-jsl10n="wikimedia-org-donate-title"
-              >
+              <div className="donate-title">
                 Your donation protects the human right to free and open
                 knowledge for everyone.
-              </div>
-              <div>
-                <a
-                  href="https://donate.wikimedia.org/?wmf_medium=wikimediaPortal&amp;wmf_campaign=wikimediaPortalBtn&amp;wmf_source=wikimediaPortalBtn"
-                  className="pure-button-primary-progressive donate-button"
-                >
-                  <span className="donate-emoji"></span>
-                  <span
-                    className="jsl10n"
-                    data-jsl10n="wikimedia-org-donate-button"
-                  >
-                    Donate now
-                  </span>
-                </a>
               </div>
             </div>
           </div>
@@ -210,25 +151,13 @@ const MyPage = () => {
       <div className="contact">
         <div className="contact-block">
           <div className="contact-wrapper">
-            <span
-              className="contact-title jsl10n"
-              data-jsl10n="wikimedia-org-contact"
-            >
-              Contact
-            </span>
+            <span className="contact-title">Contact</span>
           </div>
-          <span
-            className="contact-desc jsl10n"
-            data-jsl10n="wikimedia-org-contact-text"
-          >
-            You can contact me here
-          </span>
+          <span className="contact-desc">You can contact me here</span>
         </div>
         <div className="contact-block">
-          <a href="https://wikimediafoundation.org/about/contact/">
-            <span className="jsl10n" data-jsl10n="wikimedia-org-contact-link">
-              Contact
-            </span>
+          <a href="https://www.linkedin.com/in/sri-vishnu-pasumarthi/">
+            <span>LinkedIn</span>
           </a>
         </div>
       </div>
