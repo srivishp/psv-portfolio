@@ -1197,7 +1197,7 @@
           margin-bottom: var(--spacing-125);
         }
       }
-      .our-projects-wrapper {
+      .about-me-wrapper {
         width: var(--size-full);
         box-sizing: border-box;
         margin-top: 100px;
@@ -1207,7 +1207,7 @@
         padding-left: var(--spacing-200);
       }
       @media only screen and (max-width: 768px) {
-        .our-projects-wrapper {
+        .about-me-wrapper {
           margin-top: var(--spacing-250);
           margin-left: var(--spacing-125);
           margin-right: var(--spacing-125);
@@ -1215,33 +1215,33 @@
           max-width: 90%;
         }
       }
-      .our-projects {
+      .about-me {
         max-width: 996px;
         min-height: 90px;
       }
-      .our-projects-title-wrapper {
+      .about-me-title-wrapper {
         height: var(--size-150);
         margin-top: var(--spacing-50);
         margin-bottom: var(--spacing-150);
       }
-      .our-projects-title {
+      .about-me-title {
         width: var(--size-800);
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-x-large);
         text-align: center;
       }
-      .our-projects-desc-wrapper {
+      .about-me-desc-wrapper {
         min-height: var(--size-300);
         margin-top: var(--spacing-50);
         margin-bottom: var(--spacing-50);
       }
       @media only screen and (max-width: 768px) {
-        .our-projects-desc-wrapper {
+        .about-me-desc-wrapper {
           width: var(--size-full);
           box-sizing: var(--box-sizing-base);
         }
       }
-      .our-projects-desc {
+      .about-me-desc {
         font-size: var(--font-size-medium);
         text-align: left;
       }

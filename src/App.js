@@ -9,24 +9,27 @@ const MyPage = () => {
         </div>
         <div className="welcome">
           <img
+            alt="Profile Pic"
             className="welcome-image"
             src="../assets/IMG-20241214-WA0014.jpg"
           />
           <div className="welcome-message-wrapper">
-            <span className="welcome-message">Hello, there!</span>
-            <span className="welcome-message-subtext">
-              Join us in making all knowledge available to everyone, everywhere.
-            </span>
+            <span className="welcome-message-subtext">Hello, there!</span>
+            <span className="welcome-message">I am Sri Vishnu Pasumarthi</span>
+
+            {/* <span className="welcome-message-subtext">
+              Frontend Developer | Azure & AWS Certified
+            </span> */}
           </div>
         </div>
       </div>
-      <div className="our-projects-wrapper">
-        <div className="our-projects">
-          <div className="our-projects-title-wrapper">
-            <span className="our-projects-title">About Me</span>
+      <div className="about-me-wrapper">
+        <div className="about-me">
+          <div className="about-me-title-wrapper">
+            <span className="about-me-title">About Me</span>
           </div>
-          <div className="our-projects-desc-wrapper">
-            <span className="our-projects-desc">
+          <div className="about-me-desc-wrapper">
+            <span className="about-me-desc">
               <p>
                 I am currently working at TechBlocks as a Frontend Web
                 Developer, with over 4 years of total work experience. I am
