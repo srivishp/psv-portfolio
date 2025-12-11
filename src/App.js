@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 
 const MyPage = () => {
   return (
@@ -75,48 +75,9 @@ const MyPage = () => {
               /> */}
             <div className="project-block">
               <div className="project-name-wrapper">
-                <span className="project-name">Wikipedia</span>
+                <span className="project-name">Project #1</span>
               </div>
-              <span className="project-tagline">The Free Encyclopedia</span>
-            </div>
-          </a>
-          <a href="https://www.wiktionary.org/" className="project-wrapper">
-            {/* <img
-                className="project-logo"
-                alt=""
-                src="./Wikimedia_files/Wiktionary-logo_sister.svg"
-              /> */}
-            <div className="project-block">
-              <div className="project-name-wrapper">
-                <span className="project-name">Wiktionary</span>
-              </div>
-              <span className="project-tagline">Free dictionary</span>
-            </div>
-          </a>
-          <a href="https://www.wikiquote.org/" className="project-wrapper">
-            {/* <img
-                className="project-logo"
-                alt=""
-                src="./Wikimedia_files/Wikiquote-logo_sister.svg"
-              /> */}
-            <div className="project-block">
-              <div className="project-name-wrapper">
-                <span className="project-name">Wikiquote</span>
-              </div>
-              <span className="project-tagline">Free quote compendium</span>
-            </div>
-          </a>
-          <a href="https://www.wikibooks.org/" className="project-wrapper">
-            {/* <img
-                className="project-logo"
-                alt=""
-                src="./Wikimedia_files/Wikibooks-logo_sister.svg"
-              /> */}
-            <div className="project-block">
-              <div className="project-name-wrapper">
-                <span className="project-name">Wikibooks</span>
-              </div>
-              <span className="project-tagline">Free textbooks</span>
+              <span className="project-tagline">Testing</span>
             </div>
           </a>
         </div>
@@ -125,11 +86,7 @@ const MyPage = () => {
         <div className="wmf">
           <div className="wmf-block">
             <div className="wmf-desc-wrapper">
-              <span className="wmf-desc">
-                This is the non-profit organization that hosts all Wikimedia
-                projects and supports communities all over the world who create
-                and curate freely accessible content.
-              </span>
+              <span className="wmf-desc">This is a sample description</span>
             </div>
           </div>
         </div>
@@ -143,10 +100,7 @@ const MyPage = () => {
             /> */}
           <div className="donate-block-wrapper">
             <div className="donate-block">
-              <div className="donate-title">
-                Your donation protects the human right to free and open
-                knowledge for everyone.
-              </div>
+              <div className="donate-title">Testing section</div>
             </div>
           </div>
         </div>
